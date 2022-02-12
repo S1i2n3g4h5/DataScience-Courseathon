@@ -1,0 +1,289 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Untitled5.ipynb",
+      "private_outputs": true,
+      "provenance": [],
+      "collapsed_sections": [],
+      "authorship_tag": "ABX9TyMHEiiwx+/mBnDwXOS2vVo0",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/S1i2n3g4h5/DataScience-Courseathon/blob/main/Assignment_6ipynb\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "## **Question 1.**"
+      ],
+      "metadata": {
+        "id": "dSE8vi054OdB"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "In Python strings, the backslash “ ” is a special character, also called the “escape” character. It is used in representing certain whitespace characters: “\\t” is a tab, “\\n” is a new line, and “\\r” is a carriage return.\n",
+        "Example: `print(\"This is test string\\n\\tThis will shift to new line with tab space at starting\")`"
+      ],
+      "metadata": {
+        "id": "JkAKDii_7B08"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "## **Question 2.**"
+      ],
+      "metadata": {
+        "id": "vCh6N03w4T2U"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "* `\\n` stands for new line means it insert new line\n",
+        "* `\\t` stands for tab space means it inserts tab space "
+      ],
+      "metadata": {
+        "id": "aB7n4O6F7VdU"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "## **Question 3.**"
+      ],
+      "metadata": {
+        "id": "G-0gr67I4T9D"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "We need to put `two backslash (\\\\)`"
+      ],
+      "metadata": {
+        "id": "tYxObA8p-ly2"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "## **Question 4.**"
+      ],
+      "metadata": {
+        "id": "n_o4AVSc4UAV"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Because `'` is different from `\"`, if there is any `\"` inside `\"` then the code will raise error"
+      ],
+      "metadata": {
+        "id": "Kpi8Ek9eHRJ3"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "## **Question 5.**"
+      ],
+      "metadata": {
+        "id": "sJB8LPZJ4UDO"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "By using `print()` only we easily print newline"
+      ],
+      "metadata": {
+        "id": "yHUdYBE9QbO6"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "## **Question 6.**"
+      ],
+      "metadata": {
+        "id": "JwZ2zXhl4UGD"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "'Hello, world!'[1]"
+      ],
+      "metadata": {
+        "id": "S3hFtugnUIDq"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "'Hello, world!'[0:5]"
+      ],
+      "metadata": {
+        "id": "OUqfMtO9UlDR"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "'Hello, world!'[:5]"
+      ],
+      "metadata": {
+        "id": "CfcgFEuLUIPA"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "'Hello, world!'[3:]"
+      ],
+      "metadata": {
+        "id": "jsKccYiUUIVA"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "## **Question 7.**"
+      ],
+      "metadata": {
+        "id": "ycGxthpR4UU8"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "'Hello'.upper()"
+      ],
+      "metadata": {
+        "id": "quOW9BSZjAlM"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "'Hello'.upper().isupper()"
+      ],
+      "metadata": {
+        "id": "0fbmK9IrjAoa"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "'Hello'.upper().lower()"
+      ],
+      "metadata": {
+        "id": "-D2zBQKBjAri"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "## **Question 8.**"
+      ],
+      "metadata": {
+        "id": "Uzq538Cj4UZ7"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "'Remember, remember, the fifth of July.'.split()"
+      ],
+      "metadata": {
+        "id": "AZ4TGrNMjNfs"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "'-'.join('There can only one.'.split())"
+      ],
+      "metadata": {
+        "id": "O-YvYF0ApuJt"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "## **Question 9.**"
+      ],
+      "metadata": {
+        "id": "ZRVFVqeW6q4m"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "* `ljust(string, width)` - Left \n",
+        "* `rjust(string, width)` - Right\n",
+        "* `center(string, width)` - Center"
+      ],
+      "metadata": {
+        "id": "poS0NjLCp2h9"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "## **Question 10.**"
+      ],
+      "metadata": {
+        "id": "B_PjoXtj6rAE"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "`string.strip()`"
+      ],
+      "metadata": {
+        "id": "gL6qfmNuqFRE"
+      }
+    }
+  ]
+}
